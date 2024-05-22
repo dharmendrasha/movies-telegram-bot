@@ -4,13 +4,13 @@ on:
   fork:
   push:
   release:
-    types: published
+    types: [published]
   issue_comment:
-    types: created
+    types: [created]
   watch:
     types: started
   pull_request_review_comment:
-    types: created
+    types: [created]
   pull_request:
     types: [opened, closed, reopened]
   issues:

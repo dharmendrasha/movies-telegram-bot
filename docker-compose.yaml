@@ -12,4 +12,4 @@ services:
     env_file:
       - fsb.env
     ports:
-      - "${PORT:-8038}:${PORT:-8038}"
+      - "8038:8080"
